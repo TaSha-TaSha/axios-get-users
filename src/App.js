@@ -15,8 +15,6 @@ class App extends Component {
     .then(res => {
       const users = res.data;
       this.setState( {users} )
-      // console.log(res.data)
-      // console.log( {res} )
     })
   }
   render() {
@@ -34,14 +32,3 @@ class App extends Component {
   }
 }
 export default App;
-
-
-
-
-
-
-
-// res это сокращенно от result 
-// https://jsonplaceholder.typicode.com/users 
-// обратить внимание, здесь НЕТ ;
-// кладем все в тег <p> <span></span> </p> чтобы отобразить все на одной строке
